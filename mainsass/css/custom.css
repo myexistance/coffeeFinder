@@ -1,4 +1,9 @@
 .jumbotron {
-	height: 250px;
+	height: 200px;
 	background-color: #292F3A;
+}
+
+.logo {
+	height: 120px;
+	width: auto;
 }
