@@ -3,9 +3,20 @@
 	background-color: #292F3A;
 }
 
+.jumbotron::after{
+	clear:left;
+}
+
 .logo {
 	height: 120px;
 	width: auto;
+}
+
+.mylogo{
+	width:20%;
+	height:100%;
+	/*background-color: white;*/
+	float:left;
 }
 
 .navbar-nav li a {
@@ -20,29 +31,53 @@ body {
 	
 	margin: auto;
 	width:20%;
-	padding: 20px 0;
+	padding-top: 35px;
+	padding-bottom: 0;
+	padding-right: 0;
+	padding-left: 0;
 
  
 }
 .myBtn{
 	background-color: cyan;
 	color:black;
-	width: 100%;
+	width: 80%;
 	height:100%;
+	border: none;
 	
 	
 }
-.mySearch{
-	background-color: green;
+.btnColorS{
+	background-color: #FFFFFF;
 
 }
 
-.mylogo{
-	width:20%;
-	height:100%;
-	/*background-color: white;*/
-	float:left;
+.btnColorB{
+	background-color: #30364C;
+	color: #FFFFFF;
+
 }
-.jumbotron::after{
-	clear:left;
+
+
+.btnColorT{
+	background-color: #73CDD9;
+	color: #FFFFFF;
+
 }
+
+.btnColorL{
+	background-color: #F0573D;
+	color: #FFFFFF;
+}
+
+.DropContent {
+	color:black;
+	width: 80%;
+	height:auto;
+	/*text-align: center;*/
+}
+
+
+
+
+
