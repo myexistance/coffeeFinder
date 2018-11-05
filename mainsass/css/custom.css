@@ -1,4 +1,4 @@
-.jumbotron {
+.jumbotron {  /* header border */
 	height: 200px;
 	background-color: #292F3A;
 }
@@ -7,27 +7,27 @@
 	clear:left;
 }
 
-.logo {
+.logo {  /*logo size*/
 	height: 120px;
 	width: auto;
 }
 
-.mylogo{
+.mylogo{ /*logo div*/
 	width:20%;
 	height:100%;
 	/*background-color: white;*/
 	float:left;
 }
 
-.navbar-nav li a {
+/*.navbar-nav li a {
  line-height: 50px;
-}
+}*/
 
-body {
+body { /*offsetting the body content from the top*/
 	position: absolute;
 	top:200px;
 }
-.myDiv{
+.myDiv{ /*DIV for the buttons*/
 	
 	margin: auto;
 	width:20%;
@@ -38,8 +38,7 @@ body {
 
  
 }
-.myBtn{
-	background-color: cyan;
+.myBtn{ /*button class */
 	color:black;
 	width: 90%;
 	height:100%;
